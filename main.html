@@ -22,6 +22,7 @@
             alert(myVariable);
             alert(otherVariable);
         </script>
+       
         <script src="main.js"></script>
     </head>
     <body>
@@ -41,6 +42,8 @@
             <li>Kaffe</li>
             <li>Kirsten</li>
         </ul>
+
+        <p id="myP">Dette er noget nyt tekst</p>
     </body>
     <section>
         <h2>TESLA</h2>
@@ -49,3 +52,7 @@
         <h3>JavaScript Alert</h3>
     </section>
 </html>
+
+<script>
+    alert(document.getElementById("myP").innerHTML);
+</script>
